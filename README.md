@@ -88,8 +88,32 @@ $ git commit -m "adios actualizacion"
 
 ////////////
 
+$ git checkout main
+$ git merge v0.2
+$ vim 1.txt
+$ git add .
+$ git commit -m "arreglo"
+```
 
+###  Listado de ramas 
 
+```
+$ git branch --merged
+$ git branch --no-merged
+```
 
+### Arreglar el conflicto
+
+```
+$ vim 1.txt
+$ git add .
+$ git commit -m "arreglo "
+```
+
+### Borrar la rama
+
+```
+$ git tag v0.2
+$ git branch -d v0.2
 ```
 
