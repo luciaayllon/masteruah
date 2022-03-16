@@ -59,3 +59,37 @@ $ git commit -m "añadir 2.txt"
 
 ```
 
+### 8. Crear una rama remota
+
+```
+$ git push origin v0.2
+```
+
+### 9. Merge directo
+
+```
+$ git checkout main
+$ git merge v0.2 -m "merge v0.2"
+```
+
+### 10. Merge con conflicto
+
+```
+$ git checkout main
+$ echo "lucia" >> 1.txt
+$ git add .
+$ git commit -m "lucia actu"
+
+/////////////
+$ git checkout v0.2
+$ echo "Adios" >> 1.txt
+$ git add .
+$ git commit -m "adios actualizacion"
+
+////////////
+
+
+
+
+```
+
