@@ -43,3 +43,19 @@ $ git tag v0.1
 $ git push --tag origin main
 ```
 
+### 6. Crear una rama y posicionarla
+
+```
+$ git branch v0.2
+$ git checkout v0.2
+```
+
+### 7. Añadir fichero 1.txt
+
+```
+$ touch 2.txt
+$ git add .
+$ git commit -m "añadir 2.txt"
+
+```
+
