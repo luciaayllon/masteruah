@@ -117,3 +117,23 @@ $ git tag v0.2
 $ git branch -d v0.2
 ```
 
+### Listado de cambios
+
+```
+$ git config --global alias.list 'log --oneline --decorate --graph --all'
+$ git list
+```
+
+### Cuenta de github
+
+* hecho
+
+
+
+
+
+| NOMBRE     | GITHUB                                                       |
+| ---------- | ------------------------------------------------------------ |
+| Lucia luna | https://github.com/lucialuna                                 |
+| Irene alba | [ https://github.com/ireealba](https://github.com/luciaayllon7) |
+
