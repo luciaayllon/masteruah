@@ -25,12 +25,21 @@ $ git commit -m "commit inicial"
 ### 3. Push inicial
 
 ```
-$ git push origin master
+$ git push origin main
 ```
 
 ### 4. Añadir fichero 1.txt
 
 ```
+$ touch 1.txt
+$ git add .
+$ git commit -m "añadido 1.txt"
+```
 
+### 5. Crear el tag v0.1 y subirlo
+
+```
+$ git tag v0.1
+$ git push --tag origin main
 ```
 
